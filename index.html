@@ -1,28 +1,91 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="1671.6">
-  <style type="text/css">
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 21.0px; font: 18.0px Helvetica; color: #000000; -webkit-text-stroke: #000000}
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 21.0px; font: 18.0px Helvetica; color: #0000e9; -webkit-text-stroke: #000000}
-    li.li1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 18.0px; font: 16.0px Helvetica; color: #000000}
-    span.s1 {background-color: #fdffbd}
-    span.s2 {font-kerning: none}
-    span.s3 {text-decoration: underline ; font-kerning: none}
-    span.s4 {font: 18.0px 'Hiragino Sans'; text-decoration: underline ; font-kerning: none}
-    ul.ul1 {list-style-type: none}
-  </style>
-</head>
-<body>
-<ul class="ul1">
-  <li class="li1"><span class="s1">you're the best ;)</span></li>
-</ul>
-<p class="p2"><span class="s2"><br>
-</span></p>
-<p class="p3"><span class="s3"><a href="./homework1_GIT/index.html">/homework1_GIT<span class="s4">♥</span>/</a></span></p>
-</body>
+ <head>
+  <meta charset="utf-8">
+  <title>Information</title>
+ </head>
+ <body>
+  <table border="1">
+   <tr>
+    <th>Ім'я</th>
+    <th>Прізвище</th>
+    <th>Телефон</th>
+    <th>E-mail</th>
+   </tr>
+   <tr>
+    <th>Віталій</th>
+    <th>Бербека</th>
+    <th>0632413767</th>
+    <th>berbeka4@gmail.com</th>
+  </tr>
+  <tr>
+    <th>Володимир</th>
+    <th>Тютюнник</th>
+    <th>06789123345</th>
+    <th>bosterk@gmail.com</th>
+   </tr>
+   <tr>
+    <th>Оксана</th>
+    <th>Слюсарнеко</th>
+    <th>0634589767</th>
+    <th>vintagefor@gmail.com</th>
+  </tr>
+  <tr>
+    <th>Анатолій</th>
+    <th>Ліщинський</th>
+    <th>0995445555</th>
+    <th>pos98@yahoo.com</th>
+   </tr>
+ </table>
+ <br><br>
+ <h2>Ваші дані:</h2>
+
+ <form action="/action_page.php"><br>
+   <input type="text" id="fname" name="fname" value="Ім'я"><br><br>
+   <input type="text" id="lname" name="lname" value="Прізвище"><br><br>
+ </form> 
+ <h2>Стать</h2>
+
+<form action="/action_page.php">
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Чоловіча </label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Жіноча</label><br>
+  <input type="radio" checked="checked" id="other" name="gender" value="other">
+  <label for="other">Свій варіант</label><br><br>
+  <form>
+      <textarea>Коментарій</textarea></p>
+    </form>
+    <h2>Ваше місто</h2>
+    <select>
+      <option selected disabled>оберіть місто</option>
+      <option>Київ</option>
+      <option>Львів</option>
+      <option>Харків</option>
+      <option>Одеса</option>
+    </select>
+   </form>
+  <h2>Мови, якими володієте</h2>
+</form> 
+   <form action="/action_page.php">
+    <input type="checkbox" id="language1" name="language1" value="russsian">
+    <label for="language1"> русский</label><br>
+    <input type="checkbox" id="language2" name="language2" value="ukrainian">
+    <label for="language2"> українська</label><br>
+    <input type="checkbox" id="vlanguage3" name="language3" value="english">
+    <label for="language3"> english</label><br><br>
+    <form>
+      <input type="button" value="send" onclick="msg()">
+    </form>
+    
+    <script>
+    function msg() {
+      alert("а куди це ви хочете перейти?)");
+    }
+    </script>
+    
+    </body>
+    </html>
+  </form>
+ </body>
 </html>
